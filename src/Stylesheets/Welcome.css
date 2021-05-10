@@ -1,0 +1,67 @@
+.welcome {
+  color: #fff;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.welcome_iam,
+.welcome_name {
+  color: #64ffda;
+}
+.welcome_profile {
+  flex-grow: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.welcome_content {
+  width: 100%;  
+  flex-shrink: 0.5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 120px;
+  /* border: 1px solid red; */
+}
+.welcome_profile > img {
+  width: 100%;
+  height: 390px;
+  object-fit: contain;
+}
+.welcome_content h1 {
+  font-size: 108px;
+  line-height: 1;
+}
+.tag{
+  margin-top: 30px;
+
+  width: 22ch;
+  animation: typing 3s steps(44), blink .7s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1.5px solid;
+  font-size: 2.9em;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.tag > h4 {
+  font-size: 25px;
+  font-weight: 100;
+}
+.tag > h4 > span {
+  color: #64ffda;
+  font-size: 27px;
+  font-weight: 400;
+}

@@ -1,0 +1,47 @@
+.experience {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 65px;
+  /* width: 100vw; */
+  height: calc(100vh - 100px);
+  /* margin-top: -50px */
+}
+.experience_heading {
+  flex: 0.2;
+  width: 100vw;
+  padding-left: 100px;
+}
+.experience_heading h1 {
+  padding-top: 25px;
+  font-size: 50px;
+}
+.experience_heading span {
+  color: #64ffda;
+}
+.experience_content {
+  flex: 0.8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 65px;
+}
+.experinece_content_companies {
+  height: 100%;
+  flex: 0.3;
+  /* width: 100%; */
+  padding-left: 100px;
+  border: 1px solid red;
+}
+.experience_content_comapnies > h2 {
+  font-weight: normal;
+  font-size: 30px;
+}
+.experinece_content_discription {
+  height: 100%;
+  flex: 0.7;
+  width: 100%;
+  padding-left: 100px;
+  border: 1px solid red;
+}

@@ -1,0 +1,39 @@
+.about_tag {
+  height: calc(100vh - 100px );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 100px;
+  width: 100vw;
+  margin-bottom: -65px;
+  line-height:1.2;
+  /* border: 1px solid red; */
+}
+.about_tag_start > h1,
+.about_tag_center > h1,
+.about_tag_end > h1 {
+  padding: 0px 100px;
+  font-size: 108px;
+  color: white;
+}
+.about_tag_start {
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+}
+.about_tag_center {
+  display: flex;
+  justify-content: flex-start;
+ 
+  width: 100vw;
+}
+.about_tag_end {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 100vw;
+}
+.span_color {
+    color: #64ffda;
+  }

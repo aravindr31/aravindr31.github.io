@@ -1,0 +1,45 @@
+.about {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 65px;
+  width: 100vw;
+  height: calc(100vh - 100px);
+}
+.about_heading {
+  flex: 0.2;
+  width: 100vw;
+  padding-left: 100px;
+}
+.about_heading h1 {
+  padding-top: 25px;
+  font-size: 50px;
+}
+
+.about_heading span {
+  color: #64ffda;
+}
+.about_content {
+  flex: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 65px;
+}
+.about_content_left {
+  height: 100%;
+  padding-left: 100px;
+}
+.about_content_left h4 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.about_content_right {
+  height: 100%;
+}
+.about_content_right > img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
