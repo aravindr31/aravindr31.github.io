@@ -31,7 +31,7 @@ function Header() {
               </Link>
 
               <li>
-                <a href="/New resume.pdf" download><span className="span_color">.</span>resume ( )</a>
+                <a href="/Aravind_Resume.pdf" download><span className="span_color">.</span>resume ( )</a>
               </li>
             </ul>
           </div>

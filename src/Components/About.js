@@ -30,7 +30,7 @@ function About() {
         </div>
         <div className="about_content_right">
           <img
-            src="https://raw.githubusercontent.com/dev-Aravind/images/main/Hack_Mask.png"
+            src="/Hack_Mask.png"
             alt=""
             srcset=""
           />

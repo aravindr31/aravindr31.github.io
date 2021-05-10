@@ -20,7 +20,7 @@ function Works() {
               top repos by number of stars, forks, and size."
         github_link=""
         website_link=""
-        screenshot_link="https://github.com/dev-Aravind/images/blob/main/spotify.png?raw=true"
+        screenshot_link="/spotify.png"
       />
       <Work_Projects
         project_interface_direction="work_projects_reverse"
@@ -30,7 +30,7 @@ function Works() {
               top repos by number of stars, forks, and size."
         github_link=""
         website_link=""
-        screenshot_link="https://github.com/dev-Aravind/images/blob/main/spotify.png?raw=true"
+        screenshot_link="/spotify.png"
       />
       <Work_Projects
         project_interface_direction="work_projects"
@@ -40,7 +40,7 @@ function Works() {
               top repos by number of stars, forks, and size."
         github_link=""
         website_link=""
-        screenshot_link="https://github.com/dev-Aravind/images/blob/main/spotify.png?raw=true"
+        screenshot_link="/spotify.png"
       />
 
       {/* </div> */}
