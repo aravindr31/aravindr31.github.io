@@ -3,8 +3,20 @@ import "../Stylesheets/Contact.css";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
+import { Button } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+
 function Contact() {
+  
+  const useStyles = makeStyles((theme) => ({
+    button: {
+      margin: theme.spacing(1),
+    },
+  }));
+
+  const classes = useStyles();
+
+
   return (
     <div className="contact">
       <div className="contact_heading">
@@ -15,26 +27,30 @@ function Contact() {
       <div className="contact_content">
         <div className="contact_content_top">
           <h4>
-            I'm seeking out opportunities to collaborate with companies /
-            agencies / individuals, not just work for them. I want to bring my
-            collective design experience to the table where we can work together
-            to solve real business-problems in a way that optimizes all of our
-            respective experience and knowledge.
+            If you want to contact me or need to talk about a project or even just a
+            Hi,
+            <br />
+            just click below to reach me.
           </h4>
           <br/>
-          <h4>
-            I want to avoid subjective pissing-matches, and favor open-minded
-            collaborators where egos are out of the equation. If that all sounds
-            about right, then lets for sure chat about how we can work together.
-          </h4>
-          <br/>
-          <h4>Feel free to reach out through any platforms bellow:</h4>
+          <div className="contact_content_middile">
+          <Button
+          variant="outlined"
+          className={classes.button}
+          href="mailto:aravindr597@gmail.com"
+        >
+          Say Hello
+        </Button>
+        </div>
+          <br />
+          <h2>Let's get Social</h2>
+<br/>
+          <h4>If you prefer social platforms, feel free to reach out through any platforms below:</h4>
         </div>
         <div className="contact_content_bottom">
-          <TwitterIcon className="contact_content_bottom_icon"/>
-          <InstagramIcon className="contact_content_bottom_icon"/>
-          <LinkedInIcon className="contact_content_bottom_icon"/>
-          <AlternateEmailIcon className="contact_content_bottom_icon"/>
+        <a href="https://twitter.com/aravind___r"><TwitterIcon className="contact_content_bottom_icon" /></a> 
+        <a href="https://www.instagram.com/this_is_me__aravind/"><InstagramIcon className="contact_content_bottom_icon" /></a>  
+        <a href="https://www.linkedin.com/in/aravind-r-954451118/"><LinkedInIcon className="contact_content_bottom_icon" /></a>  
         </div>
       </div>
     </div>

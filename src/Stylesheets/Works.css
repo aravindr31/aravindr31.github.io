@@ -47,11 +47,13 @@
 }
 .work_projects_text >h4{
 font-weight: normal;
+line-height: 1.5;
 }
 .work_projects_text_heading {
   width: 100%;
   display: flex;
   justify-content: flex-start;
+
 }
 .work_projects_text_heading > h1 {
   padding: 30px 0px;
@@ -63,9 +65,23 @@ font-weight: normal;
   align-items: center;
   padding: 30px;
 }
+.work_projects_text_icons>a{
+  text-decoration: none;
+  color:#fff;
+}
 .work_projects_text_icons_individual {
   padding: 0px 10px;
 }
 .work_projects_text_icons_individual:hover {
   color: #64ffda;
+}
+.work_projects_text_techused{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.work_projects_text_techused>h4{
+  padding:0px 10px;
+  font-weight: 500;
+  font-size:15px;
 }

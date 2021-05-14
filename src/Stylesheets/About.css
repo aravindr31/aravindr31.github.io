@@ -6,6 +6,8 @@
   padding-top: 65px;
   width: 100vw;
   height: calc(100vh - 100px);
+  padding-bottom:30px;
+
 }
 .about_heading {
   flex: 0.2;
@@ -26,6 +28,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 65px;
+
 }
 .about_content_left {
   height: 100%;
@@ -34,6 +37,7 @@
 .about_content_left h4 {
   font-size: 20px;
   font-weight: normal;
+  text-align:left;
 }
 .about_content_right {
   height: 100%;

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 90px;
 }
 .welcome_iam,
 .welcome_name {
@@ -39,7 +39,7 @@
   margin-top: 30px;
 
   width: 22ch;
-  animation: typing 3s steps(44), blink .7s step-end infinite alternate;
+  animation: typing 4s steps(100), blink 1s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 1.5px solid;

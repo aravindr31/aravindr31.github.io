@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 65px;
-  /* width: 100vw; */
   height: calc(100vh - 100px);
   margin-top: -50px
 }
@@ -12,6 +11,7 @@
   flex: 0.2;
   width: 100vw;
   padding-left: 100px;
+
 }
 .contact_heading h1 {
   padding-top: 25px;
@@ -21,13 +21,12 @@
   color: #64ffda;
 }
 .contact_content {
-  /* padding-top: 65px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* border: 1px solid red; */
-  padding:65px 100px;
+  padding:50px 100px;
+
 
 }
 .contact_content_top > h4 {
@@ -36,6 +35,24 @@
   display: flex;
   justify-content:flex-start;
   align-items:center;   
+
+}
+.contact_content_middile{
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+
+}
+.contact_content_middile>.MuiButtonBase-root {
+  color: #0d2481;
+}
+.contact_content_middile>.MuiButton-outlined {
+  border: 1px solid #50d6b7;
+  color: #fff;
+}
+.contact_content_middile>.MuiButton-outlined:hover {
+    background-color: #50d6b7;
+    color:#fff;
 }
 .contact_content_bottom{
     display: flex;

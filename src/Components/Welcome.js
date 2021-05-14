@@ -17,9 +17,6 @@ function Welcome() {
           <h4>a <span>javascript developer</span> who lives on the internet <span>...</span></h4>
         </div>
       </div>
-      {/* <div className="welcome_profile">
-        <img src="https://raw.githubusercontent.com/dev-Aravind/images/main/Hack_Mask.png" alt="" srcset="" />
-      </div> */}
     </div>
   );
 }
