@@ -40,10 +40,33 @@
 .contact_content_middile{
   width: 100%;  
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  /* border:1px solid red; */
 
 }
-.contact_content_middile>.MuiButtonBase-root {
+.contact_content_middile_link{
+  /* color: #fff; */
+  color: #64ffda;
+
+  /* padding: 0px 10px; */
+  font-size:20px;
+  font-weight: 500;
+  line-height:2;
+  text-decoration: none;
+}
+.contact_content_middile_link:hover{
+  color: #fff;
+}
+.contact_content_middile_icon>{
+  color: #fff;
+  padding: 0px 10px;
+}
+.contact_content_middile_icon:hover{
+  color: #64ffda;
+}
+
+/* .contact_content_middile>.MuiButtonBase-root {
   color: #0d2481;
 }
 .contact_content_middile>.MuiButton-outlined {
@@ -53,8 +76,8 @@
 .contact_content_middile>.MuiButton-outlined:hover {
     background-color: #50d6b7;
     color:#fff;
-}
-.contact_content_bottom{
+} */
+/* .contact_content_bottom{
     display: flex;
     justify-content:center;
     align-items:center;
@@ -65,8 +88,8 @@
     color: #fff;
     padding: 0px 10px;
 
-}
-.contact_content_bottom_icon:hover{
+} */
+/* .contact_content_bottom_icon:hover{
     color: #64ffda;
 
-}
+} */

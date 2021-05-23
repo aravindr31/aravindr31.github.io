@@ -7,7 +7,6 @@ import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 function Contact() {
-  
   const useStyles = makeStyles((theme) => ({
     button: {
       margin: theme.spacing(1),
@@ -15,7 +14,6 @@ function Contact() {
   }));
 
   const classes = useStyles();
-
 
   return (
     <div className="contact">
@@ -27,31 +25,48 @@ function Contact() {
       <div className="contact_content">
         <div className="contact_content_top">
           <h4>
-            If you want to contact me or need to talk about a project or even just a
-            Hi,
-            <br />
-            just click below to reach me.
+            Need to reach out to  me..
           </h4>
-          <br/>
-          <div className="contact_content_middile">
-          <Button
-          variant="outlined"
-          className={classes.button}
-          href="mailto:aravindr597@gmail.com"
-        >
-          Say Hello
-        </Button>
-        </div>
           <br />
-          <h2>Let's get Social</h2>
-<br/>
-          <h4>If you prefer social platforms, feel free to reach out through any platforms below:</h4>
+          <h4>
+          Feel free to reach out through any of the below platforms
+          </h4>
+          <br />
+          <br />
+
+
+          <div className="contact_content_middile">
+            <a
+              href="mailto:aravindr597@gmail.com"
+              className="contact_content_middile_link"
+            >
+              {/* <TwitterIcon className="contact_content_middile_icon" />  */}
+              aravindr597@gmail.com
+            </a>
+            <a
+              href="https://twitter.com/aravind___r"
+              className="contact_content_middile_link"
+            >
+              {/* <TwitterIcon className="contact_content_middile_icon" />  */}
+              Twitter
+            </a>
+            <a
+              href="https://www.instagram.com/this_is_me__aravind/"
+              className="contact_content_middile_link"
+            >
+              {/* <InstagramIcon className="contact_content_middile_icon" /> */}
+              Instagram
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aravind-r-954451118/"
+              className="contact_content_middile_link"
+            >
+              {/* <LinkedInIcon className="contact_content_middile_icon" /> */}
+              LinkedIn
+            </a>
+          </div>
         </div>
-        <div className="contact_content_bottom">
-        <a href="https://twitter.com/aravind___r"><TwitterIcon className="contact_content_bottom_icon" /></a> 
-        <a href="https://www.instagram.com/this_is_me__aravind/"><InstagramIcon className="contact_content_bottom_icon" /></a>  
-        <a href="https://www.linkedin.com/in/aravind-r-954451118/"><LinkedInIcon className="contact_content_bottom_icon" /></a>  
-        </div>
+        <div className="contact_content_bottom"></div>
       </div>
     </div>
   );
