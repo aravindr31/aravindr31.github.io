@@ -3,37 +3,16 @@
   top: 0;
   height: 80px;
   width: 100vw;
-  background-color: #090b13;
+  background-color: #0c0c1d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.bottom_layer {
-  height: 60px;
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #090b13;
-  background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  border-bottom: 2px solid black;
 }
 .top_layer {
   height: 55px;
   width: 100vw;
-  background-color: black;
+  background-color: #0c0c1d;
   display: flex;
   justify-content: space-between;
   align-items: center;

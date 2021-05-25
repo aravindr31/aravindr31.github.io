@@ -14,7 +14,10 @@ function Welcome() {
           <h1>aravind</h1>
         </div>
         <div className="tag">
-          <h4>a <span>javascript developer</span> who lives on the internet <span>...</span></h4>
+          <h4>
+            a <span>javascript developer</span> who lives on the internet{" "}
+            <span>...</span>
+          </h4>
         </div>
       </div>
     </div>

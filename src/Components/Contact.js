@@ -1,9 +1,5 @@
 import React from "react";
 import "../Stylesheets/Contact.css";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 function Contact() {
@@ -24,16 +20,11 @@ function Contact() {
       </div>
       <div className="contact_content">
         <div className="contact_content_top">
-          <h4>
-            Need to reach out to  me..
-          </h4>
+          <h4>Need to reach out to me..</h4>
           <br />
-          <h4>
-          Feel free to reach out through any of the below platforms
-          </h4>
+          <h4>Feel free to reach out through any of the below platforms</h4>
           <br />
           <br />
-
 
           <div className="contact_content_middile">
             <a

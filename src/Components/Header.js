@@ -4,39 +4,50 @@ import "../Stylesheets/Header.css";
 function Header() {
   return (
     <div className="nav">
-      {/* <div className="bottom_layer"> */}
-        <div className="top_layer">
-          <div className="nav_left">
+      <div className="top_layer">
+        <div className="nav_left">
           <Link to="/">
-            <h2>aravind<span className="span_color">.</span>r</h2>
-            {/* <small>.code .build .deploy</small> */}
+            <h2>
+              aravind<span className="span_color">.</span>r
+            </h2>
           </Link>
-          </div>
-          <div className="nav_right">
-            <ul>
+        </div>
+        <div className="nav_right">
+          <ul>
             <Link to="/about">
               <li>
-                <a><span className="span_color">.</span>about ( )</a>
+                <a>
+                  <span className="span_color">.</span>about ( )
+                </a>
               </li>
-              </Link>
-              <Link to="/work">
+            </Link>
+            <Link to="/work">
               <li>
-                <a><span className="span_color">.</span>work ( )</a>
+                <a>
+                  <span className="span_color">.</span>work ( )
+                </a>
               </li>
-              </Link>
-              <Link to="/contact">
+            </Link>
+            <Link to="/contact">
               <li>
-                <a><span className="span_color">.</span>contact ( )</a>
+                <a>
+                  <span className="span_color">.</span>contact ( )
+                </a>
               </li>
-              </Link>
+            </Link>
 
-              <li>
-                <a href="/Aravind_Resume.pdf" download><span className="span_color">.</span>resume ( )</a>
-              </li>
-            </ul>
-          </div>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KTmcQf6Mcc6nceAIZfr1VtIKzXkWY3yb/view?usp=sharing"
+                download
+                target="_blank"
+              >
+                <span className="span_color">.</span>resume ( )
+              </a>
+            </li>
+          </ul>
         </div>
-      {/* </div> */}
+      </div>
     </div>
   );
 }

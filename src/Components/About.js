@@ -10,7 +10,7 @@ function About() {
       </div>
       <div className="about_content">
         <div className="about_content_left">
-          <h4 >
+          <h4>
             Hi, I'm Aravind. A multi-talented human who create life on the
             internet. I got into the field of web development back in 2020 when
             the corona crisis started. From there I started Self Learning web
@@ -19,16 +19,28 @@ function About() {
           </h4>
           <br />
           <h4>
-            Fast-forward to today, after building 12+ clones of famous websites
-            on the internet I am confident enough to build any websites with a
-            highly performant and maintainable code base. I being a new
-            candidate to this web world, is highly flexible and fueled with high
-            energy levels to learn new things every day to make inclusive
-            products and digital experiences for my clients.
+            Fast-forward to today, after building few handfull of projects for
+            my on , I am confident enough to build any web being with a highly
+            performant and maintainable code base. I being a new candidate to
+            this web world, is highly flexible and fueled with high energy
+            levels to learn new things every day to make inclusive products and
+            digital experiences for my clients.
           </h4>
         </div>
         <div className="about_content_right">
-          <img src="/Hack_Mask.png" alt="" srcset="" />
+          <div className="about_content_right_inner_block">
+            <div className="losange">
+              <div className="los1">
+                <img
+                  src="/profile_pic .png"
+                  alt="profile pic"
+                  srcset=""
+                  width="255"
+                  height="320"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
