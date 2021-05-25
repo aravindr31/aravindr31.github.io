@@ -2,7 +2,6 @@ import React from "react";
 import "../Stylesheets/Works.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkIcon from "@material-ui/icons/Link";
-import { TableChart } from "@material-ui/icons";
 function Work_Projects({
   project_interface_direction,
   project_name,

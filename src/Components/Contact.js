@@ -1,16 +1,7 @@
 import React from "react";
 import "../Stylesheets/Contact.css";
-import { makeStyles } from "@material-ui/core/styles";
 
 function Contact() {
-  const useStyles = makeStyles((theme) => ({
-    button: {
-      margin: theme.spacing(1),
-    },
-  }));
-
-  const classes = useStyles();
-
   return (
     <div className="contact">
       <div className="contact_heading">
@@ -38,21 +29,18 @@ function Contact() {
               href="https://twitter.com/aravind___r"
               className="contact_content_middile_link"
             >
-              {/* <TwitterIcon className="contact_content_middile_icon" />  */}
               Twitter
             </a>
             <a
               href="https://www.instagram.com/this_is_me__aravind/"
               className="contact_content_middile_link"
             >
-              {/* <InstagramIcon className="contact_content_middile_icon" /> */}
               Instagram
             </a>
             <a
               href="https://www.linkedin.com/in/aravind-r-954451118/"
               className="contact_content_middile_link"
             >
-              {/* <LinkedInIcon className="contact_content_middile_icon" /> */}
               LinkedIn
             </a>
           </div>
