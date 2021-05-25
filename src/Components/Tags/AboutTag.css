@@ -2,12 +2,10 @@
   height: calc(100vh - 100px );
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   padding-top: 100px;
-  width: 100vw;
   margin-bottom: -65px;
-  line-height:1.2;
   /* border: 1px solid red; */
 }
 .about_tag_start > h1,

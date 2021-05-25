@@ -41,6 +41,7 @@ function Header() {
                 href="https://drive.google.com/file/d/1KTmcQf6Mcc6nceAIZfr1VtIKzXkWY3yb/view?usp=sharing"
                 download
                 target="_blank"
+                rel="noreferrer"
               >
                 <span className="span_color">.</span>resume ( )
               </a>
