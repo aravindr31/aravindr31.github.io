@@ -30,7 +30,9 @@
 .nav_left > a {
   text-decoration: none;
   color: #fff;
+  padding-left: 40px;
 }
+
 .span_color {
   color: #64ffda;
 }
@@ -67,4 +69,22 @@ li a {
 }
 li a:hover {
   color: #64ffda;
+}
+.header_on_smallScreen {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .nav_left > a{
+    padding-left:20px;
+  }
+  .nav_right {
+    display: none;
+  }
+  .header_on_smallScreen {
+    display: inline-block;
+  }
+}
+.MuiTypography-body1 {
+  font-size: 30px !important;
+  font-weight: 500 !important;
 }

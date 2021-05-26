@@ -66,30 +66,19 @@
   color: #64ffda;
 }
 
-/* .contact_content_middile>.MuiButtonBase-root {
-  color: #0d2481;
+@media only screen and (max-width: 768px){
+  .contact{
+    padding-top: 0px;
+    margin-top: -100px;
+  }
+  .contact_heading h1{
+    font-size:40px;
+    padding-top:0px;
+  }
+  .contact_heading{
+    padding-left: 20px;
+  }
+  .contact_content{
+    padding: 20px;
+  }
 }
-.contact_content_middile>.MuiButton-outlined {
-  border: 1px solid #50d6b7;
-  color: #fff;
-}
-.contact_content_middile>.MuiButton-outlined:hover {
-    background-color: #50d6b7;
-    color:#fff;
-} */
-/* .contact_content_bottom{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    width: 100%;
-    padding-top: 30px;
-}
-.contact_content_bottom_icon{
-    color: #fff;
-    padding: 0px 10px;
-
-} */
-/* .contact_content_bottom_icon:hover{
-    color: #64ffda;
-
-} */

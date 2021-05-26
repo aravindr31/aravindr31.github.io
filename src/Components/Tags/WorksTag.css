@@ -1,5 +1,5 @@
 .works_tag{
-    height:calc(100vh - 100px);
+    height:calc(100vh);
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -11,3 +11,12 @@
     color: #fff;
     line-height:1;
 }
+@media only screen and (max-width: 768px) {
+    .works_tag {
+      padding:0px 20px;
+    }
+    .work_tag>h1{
+        font: size 84px;;
+    }
+  }
+  

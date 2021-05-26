@@ -107,10 +107,32 @@
   text-transform: uppercase;
   background-color: transparent;
   color: #64ffda;
-  border: 2px solid #64ffda;
-  border-radius: 10px 0px 10px 0px;
+  border: 1px solid #64ffda;
 }
 .work_toogleshow_button:hover {
   background-color: #133040;
-  border-radius: 0px 10px 0px 10px;
+}
+@media only screen and (max-width: 768px) {
+  .work_heading {
+    padding-left: 30px;
+  }
+  .work_heading{
+    font-size: 40px;
+  }
+  .work_projects,.work_projects_reverse{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.work_projects_image>img{
+height:200px;
+object-fit: contain;
+}
+.work_show_more {
+  grid-template-columns: auto ;
+  padding: 60px 20px;
+
+}
 }

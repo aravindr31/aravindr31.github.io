@@ -15,7 +15,7 @@ function Welcome() {
         </div>
         <div className="tag">
           <h4>
-            a <span>javascript developer</span> who lives on the internet{" "}
+            a <span>web developer</span> who creates lives on internet
             <span>...</span>
           </h4>
         </div>

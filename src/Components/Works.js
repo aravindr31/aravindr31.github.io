@@ -30,7 +30,7 @@ function Works() {
         github_link="https://github.com/dev-Aravind/Amazon-clone"
         website_link="https://amazonclone-react.surge.sh/"
         screenshot_link="/amazon.png"
-        Technologies="React,Node JS,Express,MongoDB,Stripe API"
+        Technologies="React,Node JS,MongoDB,Stripe API"
       />
       <Work_Projects
         project_interface_direction="work_projects"

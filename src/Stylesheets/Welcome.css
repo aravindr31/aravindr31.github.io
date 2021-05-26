@@ -37,13 +37,12 @@
 }
 .tag {
   margin-top: 30px;
-
   width: 22ch;
-  animation: typing 4s steps(100), blink 1s step-end infinite alternate;
+  animation: typing 4s steps(100), blink .1s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 1.5px solid;
-  font-size: 2.9em;
+  font-size: 2.75em;
 }
 @keyframes typing {
   from {
@@ -64,4 +63,22 @@
   color: #64ffda;
   font-size: 27px;
   font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+  .welcome_content {
+    padding-left: 20px;
+  }
+  .welcome_content h1 {
+    font-size: 84px;
+  }
+  .tag{
+  animation: typing 4s steps(100), blink .1s step-end infinite alternate;
+  font-size: 1.65rem;
+  }
+  .tag > h4 {
+    font-size: 15px;
+  }
+  .tag > h4>span {
+    font-size: 17px;
+  }
 }
