@@ -34,7 +34,6 @@ const useStyles = makeStyles({
 
 function Header() {
   const [show, setShow] = useState(false);
-
   const classes = useStyles();
 
   const toggleDrawer = () => (event) => {
@@ -47,7 +46,6 @@ function Header() {
     }
     setShow(!show);
   };
-
   const list = () => (
     <div
       className={classes.fullList}

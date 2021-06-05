@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter ,HashRouter,Route, Switch } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
@@ -12,7 +12,7 @@ import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <ScrollToTop />
       <div className="App">
         <Switch>
@@ -26,18 +26,18 @@ function App() {
             <WorksTag />
             <Works />
           </Route>
-          <Route path="/contact">
-            <Header />
-            <ContactTag />
-            <Contact />
-          </Route>
+            <Route path="/contact">
+              <Header />
+              <ContactTag />
+              <Contact />
+            </Route>
           <Route path="/">
             <Header />
             <Welcome />
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

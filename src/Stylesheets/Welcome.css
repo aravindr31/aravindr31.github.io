@@ -68,7 +68,7 @@
   .welcome_content {
     padding-left: 20px;
   }
-  .welcome_content h1 {
+  .welcome_content> h1 {
     font-size: 84px;
   }
   .tag{
@@ -77,8 +77,11 @@
   }
   .tag > h4 {
     font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
   }
   .tag > h4>span {
     font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+
   }
 }

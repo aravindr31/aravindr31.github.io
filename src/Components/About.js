@@ -32,8 +32,8 @@ function About() {
             <div className="losange">
               <div className="los1">
                 <img
-                  src="/profile_pic .png"
-                  alt="profile pic"
+                  src="/pro-pic.jpg"
+                  alt="Profile picture"
                   srcset=""
                   width="255"
                   height="320"
