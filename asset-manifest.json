@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/aravindr31.github.io/static/css/main.ae21c6f2.chunk.css",
+    "main.js": "/aravindr31.github.io/static/js/main.de411682.chunk.js",
+    "main.js.map": "/aravindr31.github.io/static/js/main.de411682.chunk.js.map",
+    "runtime-main.js": "/aravindr31.github.io/static/js/runtime-main.101a6125.js",
+    "runtime-main.js.map": "/aravindr31.github.io/static/js/runtime-main.101a6125.js.map",
+    "static/js/2.8551fef5.chunk.js": "/aravindr31.github.io/static/js/2.8551fef5.chunk.js",
+    "static/js/2.8551fef5.chunk.js.map": "/aravindr31.github.io/static/js/2.8551fef5.chunk.js.map",
+    "index.html": "/aravindr31.github.io/index.html",
+    "static/css/main.ae21c6f2.chunk.css.map": "/aravindr31.github.io/static/css/main.ae21c6f2.chunk.css.map",
+    "static/js/2.8551fef5.chunk.js.LICENSE.txt": "/aravindr31.github.io/static/js/2.8551fef5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.101a6125.js",
+    "static/js/2.8551fef5.chunk.js",
+    "static/css/main.ae21c6f2.chunk.css",
+    "static/js/main.de411682.chunk.js"
+  ]
+}
