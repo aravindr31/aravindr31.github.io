@@ -11,7 +11,7 @@ function About() {
       <div className="about_content">
         <div className="about_content_left">
           <h4>
-            Hi, I'm Aravind. A multi-talented human who create life on the
+            Hello, I'm Aravind. A multi-talented human who create life on the
             internet. I got into the field of web development back in 2020 when
             the corona crisis started. From there I started Self Learning web
             technologies with a few basic youtube videos and w3schools. That
