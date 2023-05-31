@@ -12,7 +12,7 @@ import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/aravindr31.github.io">
       <ScrollToTop />
       <div className="App">
         <Switch>
@@ -37,7 +37,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
