@@ -23,7 +23,7 @@
 .about_content {
   flex: 0.8;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
   padding-top: 65px;
 }

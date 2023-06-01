@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import "../Stylesheets/Works.css";
 import Project_Square from "./Project_Square";
 import Work_Projects from "./Work_Projects";
+import amazon from "../assets/amazon.png"
+import netflix from "../assets/netflix.png"
+import spotify from "../assets/spotify.png"
+
 function Works() {
   const [hide, setHide] = useState(true);
   const handleClick = () => {
@@ -20,7 +24,7 @@ function Works() {
         discription="A perfectly etched web app clone of the Offical Spotify Web Player. Ability to Play&Pause, Search Songs and even control the songs on linked devices. Secured Login with Spotify's own Authentication System."
         github_link="https://github.com/dev-Aravind/Spotify-ReactApp"
         website_link="https://spotify-react-player.surge.sh/"
-        screenshot_link="/spotify.png"
+        screenshot_link="/src/assests/spotify.png"
         Technologies="React,Node JS,Express,Spotify Web API"
       />
       <Work_Projects
@@ -29,7 +33,7 @@ function Works() {
         discription="A clean build of Amazon Shopping Website with React and Node JS. Have full Ecommerce Functionality along with Integrated Stripe Payment System"
         github_link="https://github.com/dev-Aravind/Amazon-clone"
         website_link="https://amazonclone-react.surge.sh/"
-        screenshot_link="/amazon.png"
+        screenshot_link={amazon}
         Technologies="React,Node JS,MongoDB,Stripe API"
       />
       <Work_Projects
@@ -38,7 +42,7 @@ function Works() {
         discription="A clean build of Netflix UI using React fully Mobile Responsive. Uses Google Firebase for deployment.Uses Realtime data form TMDB API "
         github_link="https://github.com/dev-Aravind/Netflix-clone"
         website_link="https://netflix-clone-3830c.web.app/"
-        screenshot_link="/netflix.png"
+        screenshot_link={netflix}
         Technologies="React, Firebase, TMDB API"
       />
       {!hide ? (
@@ -47,7 +51,7 @@ function Works() {
             project_name="Google Docs Clone"
             discription="Customised Docs Clone with collabarate typeing Feature.Build using React,Node JS and Mongo DB to store and retrive documents."
             github_link="https://github.com/dev-Aravind/google-doc-mern"
-            website_link="https://netflix-clone-3830c.web.app/"
+            website_link="{spotify}"
             Technologies="React,Node JS,Socket IO,MongoDB"
           />
 
