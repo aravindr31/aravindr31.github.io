@@ -27,7 +27,7 @@ function About() {
             digital experiences for my clients.
           </h4>
         </div>
-        <div className="about_content_right">
+        {/* <div className="about_content_right">
           <div className="about_content_right_inner_block">
             <div className="losange">
               <div className="los1">
@@ -41,7 +41,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

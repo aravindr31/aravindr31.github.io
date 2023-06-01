@@ -32,12 +32,22 @@
   object-fit: contain;
 }
 .welcome_content h1 {
-  font-size: 108px;
+  font-size: 100px;
   line-height: 1;
 }
+.hello{
+  font-weight: 500;
+}
+.iam > span{
+  color: #fff;
+  font-weight: 500;
+} 
+/* .name{
+  font-family: 600;
+} */
 .tag {
   margin-top: 30px;
-  width: 22ch;
+  width: 19ch;
   animation: typing 4s steps(100), blink .1s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -71,17 +81,20 @@
   .welcome_content> h1 {
     font-size: 84px;
   }
+  .name {
+    font-size: 96px;
+  }
   .tag{
   animation: typing 4s steps(100), blink .1s step-end infinite alternate;
   font-size: 1.65rem;
   }
   .tag > h4 {
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
   }
   .tag > h4>span {
-    font-size: 17px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    /* font-family: 'Courier New', Courier, monospace; */
 
   }
 }

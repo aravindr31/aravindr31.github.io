@@ -12,7 +12,7 @@ import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <BrowserRouter basename="/aravindr31.github.io">
+    <BrowserRouter basename="/">
       <ScrollToTop />
       <div className="App">
         <Switch>
